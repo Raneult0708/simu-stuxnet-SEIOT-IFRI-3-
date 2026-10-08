@@ -3,7 +3,7 @@ import keyboard
 
 # ---------- CONFIGURATION ----------
 PORT_ARDUINO = "COM3"       # port A — câble USB physique vers l'Arduino
-PORT_LABVIEW = "COM11"      # port C — virtuel, relié à COM10 (LabVIEW) via com0com
+PORT_LABVIEW = "COM21"      # port C — virtuel, relié à COM20 (LabVIEW) via com0com
 BAUDRATE = 115200
 TIMEOUT = 0.05              # 50ms : readline() renvoie vite si rien n'arrive
                             # → la boucle ne se bloque pas en attendant une ligne
